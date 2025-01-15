@@ -18,6 +18,7 @@ cc.Class({
         this.createWave();
     },
 
+    // Creating wave of Enemies 
     createWave() {
         const wave = this.waves[this.waveIndex];
         if (!wave) {
